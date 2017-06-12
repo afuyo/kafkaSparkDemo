@@ -1,0 +1,6 @@
+kafka broker
+wn0-kafka3.4xrxtzkyyytezfnetrqt45xcjc.fx.internal.cloudapp.net
+wn0-kafka3.4xrxtzkyyytezfnetrqt45xcjc.fx.internal.cloudapp.net:9092
+zookeeper
+zk0-kafka3.4xrxtzkyyytezfnetrqt45xcjc.fx.internal.cloudapp.net
+zk0-kafka3.4xrxtzkyyytezfnetrqt45xcjc.fx.internal.cloudapp.net:2181

@@ -1,0 +1,7 @@
+ --needs to be executed in the c:/tools/ directory in order to find jq
+ curl -u admin:wat#rMel0n -G "https://kafka-josefk.azurehdinsight.net/api/v1/clusters/kafka-josefk/services/KAFKA/components/KAFKA_BROKER" | ./jq-win64 -r '["\(.host_components[].HostRoles.host_name):9092"] | join(",")'
+ curl -u admin:wat#rMel0n -G "https://kafka-josefk.azurehdinsight.net/api/v1/clusters/kafka-josefk/services/ZOOKEEPER/components/ZOOKEEPER_SERVER" | ./jq-win64 -r '["\(.host_components[].HostRoles.host_name):2181"] | join(",")'
+
+  
+  
+  

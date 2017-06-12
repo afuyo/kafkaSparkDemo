@@ -1,3 +1,3 @@
 # kafkaSparkDemo
 
-Spark Structered Streaming
+Spark Structered Streaming and Spark Streaming
